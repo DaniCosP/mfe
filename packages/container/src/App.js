@@ -4,11 +4,12 @@ import MarketingApp from "./components/MarketingApp";
 import Header from "./components/Header";
 
 export default () => {
-    return 
-    <BrowserRouter>
+    return ( 
+    <BrowserRouter>   
         <div>
             <Header />
             <MarketingApp />
         </div>
     </BrowserRouter>
+    )
 };
